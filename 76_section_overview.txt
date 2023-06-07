@@ -1,0 +1,55 @@
+
+Section 09: Controlling Program Flow
+---------------------------------------------------------------------------
+
+Controlling Program Flow
+
+	- Sequence
+
+		+ Ordering statements sequentially
+
+	- Selection
+
+		+ Making decisions
+
+	- Iteration
+
+		+ Looping or repeating
+
+	- Note:
+
+		+ With sequence, selection, and iteration, we
+		  can implement any algorithm
+
+
+Selection - Decision Making
+
+	- 'if' statement
+
+	- 'if-else' statement
+
+	- Nested 'if' statements
+
+	- 'switch' statement
+
+	- Conditional operator '?:'
+
+
+Iteration - Looping
+
+	- 'for' loop
+
+	- Range-based 'for' loop
+
+	- 'while' loop
+
+	- 'do-while' loop
+
+	- 'continue' and 'break'
+
+	- Infinite loops
+
+	- Nested loops
+
+
+
