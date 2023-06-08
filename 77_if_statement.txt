@@ -1,0 +1,46 @@
+
+Section 09: if Statement
+------------------------------------------------------------------------------
+
+if (expr)
+	statement;
+
+
+if Statement I
+
+	- If the expression is true then execute the statement
+
+	- If the expression is false then skip the statement
+
+
+if Statement II
+
+	if (selection == 'A')
+		cout << "You selected A";
+
+	if (num > 10)
+		cout << "num is greater than 10";
+
+	if (health < 100 && player_healed)
+		health = 100;
+
+
+Block Statement
+
+	- Create a block of code by including more than one
+	  statement in code block {}
+
+	- Blocks can also contain variable declarations
+
+	- These variables are visible only within the block
+	  - local scope
+
+	{
+		// variable declarations
+		statement1;
+		statement2;
+		...
+	}
+
+
+
