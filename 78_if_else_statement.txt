@@ -1,0 +1,51 @@
+
+Section 09: if else Statement
+--------------------------------------------------------------------------------
+
+if-else Statement
+
+	- if the expression is true then execute statement1
+
+	- if the expression is false then execute statement2
+
+	- General Example 
+
+		if (expr)
+			statement1;
+		else
+			statement2;
+
+	- Example 1
+
+		if (num > 10)
+			cout << "num is greater than 10";
+		else
+			cout << "num is NOT greater than 10";
+
+	- Example 2
+
+		if (health < 100 && heal_players)
+			health = 100;
+		else
+			++health;
+
+
+if-else-if Construct
+
+	- Block statement
+
+		if (score > 90)
+			cout << "A";
+		else if (score > 80)
+			cout << "B";
+		else if (score > 70)
+			cout << "C";
+		else if (score > 60)
+			cout << "D";
+		else			// all others must be F
+			cout << "F";
+
+		cout << "Done";
+
+
+
