@@ -1,0 +1,48 @@
+
+Section 09: Nested if Statements
+------------------------------------------------------------------------------
+
+Nested if Statement
+
+	- if statement is nested within another
+
+	- Allows testing of multiple conditions
+
+	- else belongs to the closest if
+
+
+General Example
+
+	if (expr1)
+		if (expr2)
+			statement1;
+		else
+			statement2;
+
+
+Example 1
+
+	if (score > 90)
+		if (score > 95)
+			cout << "A+";
+		else
+			cout << "A";
+
+	else
+		cout << "Sorry, No A";
+
+
+Example 2
+
+	if (score_frank != score_bill) {
+		if (score_frank > score_bill) {
+			cout << "Frank Wins" << endl;
+		} else {
+			cout << "Bill Wins" << endl;
+		}
+	} else {
+		cout << "Looks like a tie!" << endl;
+	}
+
+
+
