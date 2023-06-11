@@ -1,0 +1,90 @@
+
+Section 09: switch-case Statement
+----------------------------------------------------------------------
+
+The switch statement I
+
+	switch (integer_control_expr) {
+		case expression_1: 
+			statement_1;
+			break;
+		case expression_2:
+			statement_2;
+			break;
+		case expression_3:
+			statement_3;
+			break;
+		...
+		
+		case expression_n:
+			statement_n;
+			break;
+		default: 
+			statement_default;
+	}
+
+
+Example 1
+
+	switch (selection) {
+		case '1': cout << "1 selected";
+			  break;
+		case '2': cout << "2 selected";
+			  break;
+		case '3':
+		case '4': cout << "3 or 4 selected";
+			  break;
+		default: cout << "1, 2, 3, 4 NOT selected";
+	}
+
+
+fall-through Example
+
+	switch (selection) {
+		case '1': cout << "1 selected";
+	
+		case '2': cout << "2 selected";
+	
+		case '3': cout << "3 selected";
+
+		case '4': cout << "4 selected";
+			  break;
+		default: cout << "1, 2, 3, 4 NOT selected";
+	}
+
+
+with an enumeration
+
+	enum Color {
+		red, green, blue
+	};
+	Color screen_color {green};
+
+	switch (screen_color) {
+		case red:   cout << "red"; break;
+		case green: cout << "green"; break;
+		case blue:  cout << "blue"; break;
+		default:    cout << "should never execute";
+	}
+
+
+The switch Statement II
+
+	- The control expression must evaluate to an integer
+	  type
+
+	- The case expressions must be constant expressions
+	  that evaluate to integer or integers literals
+
+	- Once a match occurs, all following case sections
+	  execute UNTIL a 'break' has reached the switch
+	  complete
+
+	- Best practice - provide a break statement for 
+	  each case
+
+	- Best practice - 'default' is optional, but should
+	  be handled
+
+
+
