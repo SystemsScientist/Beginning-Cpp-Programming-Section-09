@@ -63,7 +63,7 @@ int main(void) {
         }
         
         cout << fixed << setprecision(2);
-        cout << "The volume of your package is: " << package_volume << endl;
+        cout << "The volume of your package is: " << package_volume << " inches" << endl;
         cout << "Your package will cost $" << package_cost << " to ship" << endl;
     }
     
