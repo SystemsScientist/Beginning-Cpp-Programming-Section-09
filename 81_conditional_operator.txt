@@ -1,0 +1,43 @@
+
+Section 09: Conditional Operator
+--------------------------------------------------------------------------------------
+
+Conditional Operator '?:'
+
+	- General example
+
+		(cond_expr) ? expr1 : expr2
+
+	- cond_expr evaluates to a boolean expression
+
+		+ If cond_expr is true then the value of expr1
+ 		  is returned
+
+		+ If cond_expr is false then the value of
+		  expr2 is returned
+
+	- similar to if-else construct
+
+	- Ternary operator
+
+	- Very useful when used inline
+
+	- Very easy to abuse!
+
+
+Example 1
+
+	int a {10}, b {20};
+	int score {92};
+	int result {};
+
+	result = (a > b) ? a : b;
+	
+	result = (a < b) ? (b - a) : (a - b);
+
+	result = (b != 0) ? (a / b) : 0;
+
+	cout << ((score > 90) ? "Excellent" : "Good");
+
+
+
