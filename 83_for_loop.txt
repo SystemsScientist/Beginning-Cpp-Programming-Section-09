@@ -1,0 +1,100 @@
+
+Section 09: for Loop
+-------------------------------------------------------------
+
+General Examples
+
+	for (initialization; condition; increment)
+		statement;
+
+
+	for (initialization; condition; increment) {
+		statement1;
+		statement2;
+		...
+		statementn;
+	}
+
+
+Example 1
+
+	int i {0};
+
+	for (i = 1; i <= 5; ++i)
+		cout << i << endl;
+
+	Output
+	-------
+	
+	1
+	2
+	3
+	4
+	5
+
+
+Initialization Style
+
+	for (int i {1}; i <= 5; ++i)
+		cout << i << endl;
+
+
+Assignment Style
+
+	for (int i = 1; i <= 5; ++i)
+		cout << i << endl;
+
+
+Example 2 - Display Even Numbers
+
+	for (int i {1}; i <= 10; ++i)
+		if ( i % 2 == 0)
+			cout << i << endl;
+
+	Output
+	--------
+
+	2
+	4
+	6
+	8
+	10
+
+
+Example 3 - Array 
+
+	int scores [] {100, 90, 87};
+
+	for (int i {0}; i < 3; ++i) {
+		cout << scores[i] << endl;
+	}
+
+	for (int i {0}; i <= 2; ++i) {
+		cout << scores[i] << endl;
+	}
+
+	Output
+	-------
+
+	100
+	90	
+	87
+
+
+Comma Operator
+
+	for (int i {1}, j {5}; i <= 5; ++i, ++j) {
+		cout << i << " * " << j << " : " << (i * j) << endl;
+	}
+
+	Output
+	-------
+
+	1 * 5 : 5
+	2 * 6 : 12
+	3 * 7 : 21
+	4 * 8 : 32
+	5 * 9 : 45
+
+
+
