@@ -97,4 +97,23 @@ Comma Operator
 	5 * 9 : 45
 
 
+Some Other Details...
+
+	- The basic for loop is very clear and concise
+
+	- Since the for loop's expressions are all optional, it is
+	  possible to have 
+
+		+ no initialization
+
+		+ no test
+
+		+ no increment
+
+	- Endless loop
+
+	  for (;;)
+		cout << "Endless loop" << endl;
+
+
 
