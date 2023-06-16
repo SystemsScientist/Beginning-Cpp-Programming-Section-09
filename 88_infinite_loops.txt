@@ -1,0 +1,52 @@
+
+Section 09: Infinite Loops
+-------------------------------------------------------------------------------
+
+Infinite Loops
+
+	- Loops when condition expression always evaluate to true
+
+	- Usually this is unintended and a programmer error
+
+	- Sometimes programmers use infinite loops and include
+	  and break statements in the body to control them
+
+	- Sometimes infinite loops are exactly what we need
+	  
+		+ Event loop in an event-driven program
+	
+		+ Operating system
+
+
+Example 1
+
+	for (;;)
+		cout << "This will print forever" << endl;
+
+
+Example 2
+
+	while (true)
+		cout << "This will print forever" << endl;
+
+
+Example 3
+
+	do {
+		cout << "This will print forever" << endl;
+	} while (true);
+
+
+Example 4
+
+	while (true) {
+		char again;
+		cout << "Do you want to loop again? (Y/N): ";
+		cin >> again;
+
+		if (again == 'N' || again == 'n')
+			break;
+	}
+
+
+
