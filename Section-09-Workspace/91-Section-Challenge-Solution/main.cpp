@@ -29,9 +29,10 @@ int main(void) {
         cin >> choice;
         
         if (choice == 'P' || choice == 'p') {
-            cout << "List of values " << endl;
+            cout << "List of values " << "[ ";
             for (long unsigned int i = 0; i < data.size(); i++)
                 cout << data[i] << " ";
+            cout << " ]";
             cout << endl;
         } else if (choice == 'A' || choice == 'a') {
             int data_item {};
